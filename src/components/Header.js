@@ -4,7 +4,7 @@ import { Jumbotron, Container } from 'react-bootstrap';
 function Header(props) {
 
     return (
-        <Jumbotron fluid>
+        <Jumbotron fluid className="background">
             <Container>
                 <h1>Clicky Game</h1>
                 <p>Your Top Score: {props.topScore}</p>

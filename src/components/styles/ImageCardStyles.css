@@ -1,5 +1,22 @@
 .imageCard{
     height:200px;
     width:200px;
+    border-style: solid;
+border-color: purple;  
 }
+
+
+.background {
+background-color: purple; 
+color:white; 
+
+border-bottom: solid 10px pink; 
+
+ 
+}
+
+.imageCard:hover {
+  background-color: yellow;
+}
+
 
