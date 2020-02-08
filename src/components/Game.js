@@ -64,8 +64,10 @@ class Gamecard extends Component {
     resetDataFuntion = data => {
         console.log("reset data function");
         const resetData = data.map(item => ({ ...item, clicked: false }));
-        return resetData;
-        //  return this.shuffleIt(resetData);
+        // item.clicked = false; 
+        // return item;
+        // return resetData;
+        return this.shuffleIt(resetData);
     }
 
     incorrectGuessFunction = dataa => {
